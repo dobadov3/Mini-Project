@@ -1,0 +1,31 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: blue;
+}
+
+.sub-menu-shop{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.sub-menu-shop ul{
+    list-style: none;
+}
+
+.new-product-detail img{
+    float: left;
+}
+
+.new-product-detail p{
+    display: inline;
+}
+
+.new-product-detail{
+    display: flex;
+    align-items: center;
+}
+
+.img-right img{
+    margin: 0 16px;
+}

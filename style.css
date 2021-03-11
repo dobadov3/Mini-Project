@@ -1,0 +1,35 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+.nav-link{
+    color: black !important;
+    font-weight: 350;
+}
+
+.home-menu a{
+    color: #888888 !important;
+}
+
+.home-hover:hover a.dropdown-toggle{
+    color: #ba933e !important;
+}
+
+.home-hover:hover .home-menu{
+    display: block;
+}
+
+.home-menu a:hover{
+    color: black !important;
+    background-color: transparent;
+}
+
+.login-item{
+    padding: 8px;
+    color: black;
+}
+
+.login-item a{
+    color: black;
+    text-decoration: none;
+}
