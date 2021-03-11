@@ -1,6 +1,5 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
-    height: 1000vh;
 }
 
 .nav-item{
@@ -21,6 +20,10 @@ body{
     color: #ba933e !important;
 }
 
+.nav-item:hover a.nav-link{
+    color: #ba933e !important;
+}
+
 .home-hover:hover .home-menu{
     display: block;
 }
@@ -33,6 +36,10 @@ body{
 .login-item{
     padding: 8px;
     color: black;
+}
+
+.login-item a.icon-right:hover{
+    color: #ba933e;
 }
 
 .login-item a{
@@ -131,4 +138,20 @@ a.btn-readmore:focus{
     color: #ba933e;
     border-color: #ba933e;
     outline: none;
+}
+
+@media(max-width: 990px){
+    .service-item{
+        border-right: none;
+    }
+
+    .subcribe-wrapper .subcribe-box{
+        width: 70%;
+    }
+}
+
+@media(max-width: 767px){
+    .subcribe-wrapper .subcribe-box{
+        width: 80%;
+    }
 }
