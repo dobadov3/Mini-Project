@@ -1,5 +1,6 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    height: 1000vh;
 }
 
 .nav-item{
@@ -61,4 +62,73 @@ body{
     color: gray;
     font-weight: 400;
     font-size: 14px;
+}
+
+.subcribe-wrapper{
+    background-image: url("//cdn.shopify.com/s/files/1/0376/9440/6700/files/newsletter-bg.jpg?v=1585674408");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 50vh;
+    position: relative;
+}
+
+.subcribe-wrapper .subcribe-box{
+    background-color: white;
+    height: 25vh; 
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.service-item{
+    border-right: 1px solid #DDD;
+}
+
+.service-item a{
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+    transition: 0.3s;
+}
+
+.service-item a:hover{
+    color: #ba933e;
+}
+
+a.btn-lifestyle{
+    background-color: #ba933e;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 70%;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+a.btn-lifestyle:hover{
+    background-color: #ba933e;
+}
+
+a.btn-readmore{
+    background-color: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    padding: 14px 32px;
+    outline: none;
+}
+
+a.btn-readmore:hover{
+    background-color: transparent;
+    color: #ba933e;
+    border-color: #ba933e;
+    outline: none;
+}
+
+a.btn-readmore:focus{
+    background-color: transparent;
+    color: #ba933e;
+    border-color: #ba933e;
+    outline: none;
 }
