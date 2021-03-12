@@ -140,13 +140,54 @@ a.btn-readmore:focus{
     outline: none;
 }
 
-@media(max-width: 990px){
+footer{
+    background-color: black;
+}
+
+footer a i{
+    font-size: 20px;
+    color: white;
+    margin: 30px 20px 0 0;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer .h5{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+footer li a{
+    color: #888888;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+footer li a:hover{
+    color: #ba933e;
+}
+
+footer span{
+    color: #888888;
+}
+
+footer .icon-contact{
+    color: white;
+    font-size: 20px;
+}
+
+@media(max-width: 992px){
     .service-item{
         border-right: none;
     }
 
     .subcribe-wrapper .subcribe-box{
         width: 70%;
+        height: 20vh;
     }
 }
 
