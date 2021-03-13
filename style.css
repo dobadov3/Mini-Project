@@ -167,6 +167,10 @@ footer li a{
     font-size: 14px;
 }
 
+footer .icon-social i:hover{
+    color: #ba933e;
+}
+
 footer li a:hover{
     color: #ba933e;
 }
@@ -178,6 +182,16 @@ footer span{
 footer .icon-contact{
     color: white;
     font-size: 20px;
+}
+
+button.collapsed{
+    color: white !important;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.accordion-flush{
+    color: white;
 }
 
 @media(max-width: 992px){
@@ -194,5 +208,11 @@ footer .icon-contact{
 @media(max-width: 767px){
     .subcribe-wrapper .subcribe-box{
         width: 80%;
+    }
+}
+
+@media(max-width: 576px){
+    footer .ul-sm{
+        display: none;
     }
 }
